@@ -7,6 +7,7 @@ namespace Eldoria.Models
 {
     public class Menu
     {
+        Choices choices = new Choices();
         public void Show()
         {
             Console.Clear();
@@ -49,8 +50,8 @@ namespace Eldoria.Models
 
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("Desenvolvedor: Samuel V. Araujo");
-            Console.WriteLine("GitHub: https://github.com/iamsamucael");
-            Console.WriteLine("Redes sociais: @iamsamucael\n");
+            Console.WriteLine("GitHub: github.com/iamsamucael");
+            Console.WriteLine("LinkedIn: linkedin.com/in/samuel-vieira-araujo\n");
 
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("↪ Pressione ESC para voltar.");
@@ -63,10 +64,16 @@ namespace Eldoria.Models
             Console.Clear();
 
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine("Bem vindo ao mundo de ELDORIA...\n");
-            Thread.Sleep(3000);
-            Console.Clear();
-            Console.WriteLine("O mundo onde existem criaturas bizarras, lugares misteriosos e muita IMAGINAÇÃO.");
+            Thread.Sleep(1000);
+            Console.WriteLine("Bem vindo ao mundo de ELDORIA!\n");
+            Console.WriteLine("O mundo onde existem criaturas bizarras, lugares misteriosos e muita IMAGINAÇÃO.\n");
+
+            Thread.Sleep(2000);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("↪ Pressione ENTER para continuar.");
+            while (Console.ReadKey().Key != ConsoleKey.Enter) { }
+
+            choices.Introduction();
         }
     }
 }
