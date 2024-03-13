@@ -1,0 +1,14 @@
+C:\DevC\Eldoria\bin\Debug\net8.0\Eldoria.exe
+C:\DevC\Eldoria\bin\Debug\net8.0\Eldoria.deps.json
+C:\DevC\Eldoria\bin\Debug\net8.0\Eldoria.runtimeconfig.json
+C:\DevC\Eldoria\bin\Debug\net8.0\Eldoria.dll
+C:\DevC\Eldoria\bin\Debug\net8.0\Eldoria.pdb
+C:\DevC\Eldoria\obj\Debug\net8.0\Eldoria.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevC\Eldoria\obj\Debug\net8.0\Eldoria.AssemblyInfoInputs.cache
+C:\DevC\Eldoria\obj\Debug\net8.0\Eldoria.AssemblyInfo.cs
+C:\DevC\Eldoria\obj\Debug\net8.0\Eldoria.csproj.CoreCompileInputs.cache
+C:\DevC\Eldoria\obj\Debug\net8.0\Eldoria.dll
+C:\DevC\Eldoria\obj\Debug\net8.0\refint\Eldoria.dll
+C:\DevC\Eldoria\obj\Debug\net8.0\Eldoria.pdb
+C:\DevC\Eldoria\obj\Debug\net8.0\Eldoria.genruntimeconfig.cache
+C:\DevC\Eldoria\obj\Debug\net8.0\ref\Eldoria.dll
